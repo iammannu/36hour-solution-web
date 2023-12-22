@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="blogging.css">
+    <title>Blogging Services Page</title>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blogs.php">View Blogs</a></li>
+        </ul>
+    </nav>
+
+    <section id="welcome">
+        <h2>Welcome to Our Blogging Services Page!</h2>
+        <p>Start sharing your thoughts and ideas. Use the form below to submit your blog content, and we'll add it to our site after review.</p>
+    </section>
+
+    <section id="request-form">
+        <h2>Write Your Blog</h2>
+        <p>Compose your blog content below:</p>
+
+        <form id="bloggingRequestForm" action="process_form.php" method="post">
+            <label for="blogTitle">Blog Title:</label>
+            <input type="text" id="blogTitle" name="blogTitle" required>
+
+            <label for="blogContent">Blog Content:</label>
+            <textarea id="blogContent" name="blogContent" rows="8" required></textarea>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="submit">Submit Blog</button>
+        </form>
+    </section>
+
+    <!-- Other sections and content specific to the Blogging page -->
+
+    <script src="blogging.js"></script> <!-- Include JavaScript file if needed -->
+</body>
+</html>

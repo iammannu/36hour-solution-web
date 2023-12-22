@@ -1,0 +1,38 @@
+/* Add this to your existing CSS file or create a new one */
+
+/* Adjustments for the Idea Generation section */
+#services {
+    text-align: center;
+}
+
+.service {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.service h3 {
+    color: #333;
+}
+
+.service p {
+    color: #555;
+}
+
+/* Hover effect for services */
+.service:hover {
+    transform: scale(1.05);
+}
+
+/* Additional styles for the Idea Generation section */
+#services .service {
+    background-color: #ec6ead; /* Different background color for Idea Generation */
+    color: #fff; /* White text color for better contrast */
+}
+
+#services .service:hover {
+    background-color: #ff8fb2; /* Hover color for Idea Generation */
+}

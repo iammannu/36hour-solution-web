@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resume-building.css">
+    <title>Resume Building Services</title>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+        </ul>
+    </nav>
+
+    <section id="resume-building-services">
+        <h2>Resume Building Services</h2>
+        <p>Get professional assistance in building a standout resume to boost your career prospects.</p>
+
+        <div class="service">
+            <h3>Professional Resume Writing</h3>
+            <p>Our experts will craft a professional resume tailored to your skills and career goals.</p>
+        </div>
+
+        <div class="service">
+            <h3>Cover Letter Writing</h3>
+            <p>Enhance your job application with a compelling cover letter that highlights your strengths.</p>
+        </div>
+
+        <p>Turnaround time for each service:</p>
+        <ul>
+            <li><strong>Professional Resume Writing:</strong> 36 hours</li>
+            <li><strong>Cover Letter Writing:</strong> 24 hours</li>
+            <!-- Add turnaround times for other services if needed -->
+        </ul>
+    </section>
+
+    <section id="request-form">
+        <h2>Submit Your Resume Building Request</h2>
+        <p>Have a specific request? Fill out the form below, and we'll get back to you within the specified turnaround time.</p>
+
+        <form id="resumeBuildingRequestForm" action="process_form.php" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="requirements">Requirements:</label>
+            <textarea id="requirements" name="requirements" rows="8" required></textarea>
+
+            <button type="submit">Submit Request</button>
+        </form>
+    </section>
+
+    <script src="resume-building.js"></script> <!-- Include JavaScript file if needed -->
+</body>
+</html>

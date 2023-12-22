@@ -1,0 +1,77 @@
+/* research-paper.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #3494e6, #ec6ead);
+    color: #333;
+}
+
+nav {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #333;
+    padding: 0.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffcc00; /* Highlight color on hover */
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.service {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.service:hover {
+    transform: scale(1.02); /* Enlarge on hover */
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.portfolio-item img:hover {
+    transform: scale(1.1); /* Enlarge image on hover */
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
